@@ -15,6 +15,7 @@
         <table class="table">
           <thead>
             <tr>
+              <th>email</th>
               <th>Código</th>
               <th>Nombre</th>
               <th>Sueldo</th>
@@ -25,6 +26,7 @@
             <c:if test="${not empty requestScope.personas}">
               <c:forEach var="p" items="${requestScope.personas}">
                 <tr>
+                   <td>${p.email}</td>
                   <td>${p.codigo}</td>
                   <td>${p.nombre}</td>
                   <td>${p.sueldo}</td>
