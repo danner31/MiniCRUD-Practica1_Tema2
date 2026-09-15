@@ -20,6 +20,8 @@
         <label>Nombre</label>
         <input type="text" name="nombre" required />
 
+       <lablel>sueldo</lable>
+       <input type="numer" name="sueldo" requierd/>
         <button class="btn" type="submit">Guardar</button>
         <a class="btn btn-secondary" href="${pageContext.request.contextPath}/persona">Volver</a>
       </form>
