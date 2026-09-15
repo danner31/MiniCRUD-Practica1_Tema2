@@ -46,6 +46,7 @@ form label {
 /* Inputs y select */
 input[type="text"],
 input[type="number"],
+input[type="email"],
 select {
   height: 44px;
   font-size: 16px;
