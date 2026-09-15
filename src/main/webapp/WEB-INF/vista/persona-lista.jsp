@@ -15,6 +15,7 @@
         <table class="table">
           <thead>
             <tr>
+              <th>sueldo</th>
               <th>Código</th>
               <th>Nombre</th>
               <th>Acciones</th>
@@ -26,6 +27,7 @@
                 <tr>
                   <td>${p.codigo}</td>
                   <td>${p.nombre}</td>
+                  <td>${p.sueldo}</td>
                   <td class="actions">
                     <!-- Botón Editar deshabilitado -->
                     <button
